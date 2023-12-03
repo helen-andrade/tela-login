@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #201b2c;
+    font-family: 'Noto Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    color: #77ffc0;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.links {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    outline: none;
+    color: #77ffc0;
+}
+
+.button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    font-size: 15px;
+    color: #77ffc0;
+    border: none;
+    cursor: pointer;
+    font-weight: bold
+}
+
+button:hover {
+    color: white;
+    background: #77ffc095;
+    transition-duration: 0.3s;
+}
+
+img {
+    width: 30vw;
+    margin: 10%;
+}
+
+#initial {
+    color: #77ffc0;
+    font-size: 30px;
+}
+
+#flex-container {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+#about {
+    background-color: #2d1d52;
+    margin-bottom: 5%;
+}
+
+#contact {
+    background-color: #73659352;
+}
+
+#why {
+    background-color: #2d1d52;
+    margin-top: 5%;
+}
+
+#why > ul {
+    /*padding: 5%;*/
+    margin-left: 45%;
+    margin-top: 4%;
+}
+
+ul > li {
+    margin: 7px;
+}
+
+#about, #contact, #why {
+    font-size: 15px;
+    color: white;
+    height: 60vh;
+    margin-top: 15%;
+}
+
+#about > h2, #contact > h2, #why > h2 {
+    text-align: center;
+    padding: 70px;
+    font-size: 30px;
+}
+
+#about > p, #contact > p, #why > p {
+    line-height: 1.5; 
+    max-width: 800px; 
+}
+
+.social-link > a {
+    text-decoration: none;
+    outline: none;
+}
+
+.social-link {
+    margin-left: 42%;
+    margin-top: 10px;
+}
+
+i.fab {
+    display: inline-block;
+    align-items: center;
+    margin: 20px;
+    color: white; 
+    font-size: 30px;
+}
+
+i.fab:hover {
+    color: #77ffc095;
+    transition: color 0.3s; 
+
+}
+
+footer {
+    background-color: #1e172f;
+    color: #77ffc0;
+    text-align: center;
+    height: 100%;
+    font-size: 15px;
+    padding: 20px;
+    margin-top: 15%;
+}
+
+footer > h2 {
+    font-size: 30px;
+}
+
+footer > a {
+    text-decoration: none;
+    color: #77ffc0;
+}
+
+footer > a:hover {
+    color: #2df59860;
+}

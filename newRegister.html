@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styleRegister.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="title">Sputnik</div>
+        <div class="register-login">
+            <form>
+                <label for="new-name">Nome completo:</label>
+                <input type="text" id="new-name" name="name" required>
+
+                <label for="new-email">Email:</label>
+                <input type="email" id="new-email" name="email" required>
+
+                <label for="new-password">Senha:</label>
+                <input type="password" id="new-password" name="password" placeholder="min. de 8 caracteres" required>
+
+                <label for="new-number">Número com DDD:</label>
+                <input type="number" id="new-number" name="number" required>
+            </form>
+
+            <button id="save" onclick="save()">Salvar</button>   
+        </div>
+    <script src="scripts/scriptRegister.js"></script>
+</body>
+</html>
