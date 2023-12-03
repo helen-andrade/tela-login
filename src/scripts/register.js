@@ -34,4 +34,7 @@ function save() {
         event.preventDefault();
     })
 }
-      
+
+function backToHome() {
+    window.location.href = '../../index.html'
+}

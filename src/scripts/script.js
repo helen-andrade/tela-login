@@ -28,7 +28,7 @@ if (user.trim() === '' || !regex.test(user)) {
 if (password.length < passwordMinLength) {
     alert(`A senha deve ter pelo menos ${passwordMinLength} caracteres.`);
 } else {
-  window.location.href = 'index2.html'
+  window.location.href = './src/pages/home.html'
 }
 
 form.addEventListener('startLogin', function (event) {
@@ -37,6 +37,6 @@ form.addEventListener('startLogin', function (event) {
 }
 
 function newRegister() {
-  window.location.href = 'newRegister.html'
+  window.location.href = './src/pages/register.html'
 }
 

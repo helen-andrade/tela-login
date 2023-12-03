@@ -17,3 +17,7 @@ sobreButton.addEventListener('click', () => {
 contatoButton.addEventListener('click', () => {
   contactSection.scrollIntoView({ behavior: 'smooth' });
 });
+
+function backToHome() {
+  window.location.href = '../../index.html'
+}
